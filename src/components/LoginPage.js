@@ -18,11 +18,12 @@ const LoginPage = () => {
     setUserCredentials({ ...userCredentials, [e.target.name]: e.target.value });
   };
 
-  useEffect(()=>{
-    setMarginVal("10")
-  }, [userCredentials])
+  useEffect(() => {
+    setMarginVal("10");
+  }, [userCredentials]);
 
   const updateMargin = () => {
+    if (window.innerWidth <= 1356) return;
     if (!userCredentials.userName || !userCredentials.password) {
       if (marginVal === "10") {
         setMarginVal("500");
