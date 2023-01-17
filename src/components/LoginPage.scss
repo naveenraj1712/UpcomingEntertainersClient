@@ -1,0 +1,66 @@
+.login-page {
+    height: 670px;
+    width: 100%;
+
+    .login-page-root-img {
+        background: url("../assets/upcomingentertainershead.PNG") top center no-repeat;
+        height: 38.8%;
+    }
+
+    .login-page-root {
+        background: url("../assets/background2.PNG") top center;
+        display: flex;
+        justify-content: center;
+        height: 61.2%;
+        align-items: flex-start;
+
+        .login-page-header {
+            font-size: 26px;
+            color: white;
+        }
+
+        .login-form-root {
+            width: 50%;
+            display: flex;
+            border: 3px solid #f89b00;
+            border-radius: 5px;
+            align-items: center;
+            padding: 5px;
+            justify-content: center;
+            .login-form-input-pad {
+                padding-top: 0 !important;
+            }
+            .login-form-user-label {
+                color: white;
+                padding: 12px;
+                font-size: 18px;
+                padding-left: 17px;
+            }
+
+            .login-form-user-input {
+                color: white;
+                padding: 8px;
+                font-size: 20px;
+
+            }
+
+            .MuiInput-underline:not(.Mui-disabled):before,
+            .MuiInput-underline:not(.Mui-disabled):after {
+                border: 0 !important;
+            }
+
+            .login-form-user {
+                margin: 10px;
+                height: 50px;
+                border: 3px solid #f89b00;
+                padding: 5px;
+                width: 50%;
+                border-radius: 5px;
+                .MuiInputLabel-shrink {
+                    padding-top: 12px !important;
+                }
+            }
+
+        }
+    }
+}
