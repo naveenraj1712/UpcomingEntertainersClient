@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UpcomingEntertainersClient/static/css/main.073c9b0a.css",
+    "main.js": "/UpcomingEntertainersClient/static/js/main.283733a1.js",
+    "static/js/787.d35371f9.chunk.js": "/UpcomingEntertainersClient/static/js/787.d35371f9.chunk.js",
+    "static/media/logo.svg": "/UpcomingEntertainersClient/static/media/logo.2c39c197953400c0a91233940acb80fc.svg",
+    "index.html": "/UpcomingEntertainersClient/index.html",
+    "main.073c9b0a.css.map": "/UpcomingEntertainersClient/static/css/main.073c9b0a.css.map",
+    "main.283733a1.js.map": "/UpcomingEntertainersClient/static/js/main.283733a1.js.map",
+    "787.d35371f9.chunk.js.map": "/UpcomingEntertainersClient/static/js/787.d35371f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.283733a1.js"
+  ]
+}
