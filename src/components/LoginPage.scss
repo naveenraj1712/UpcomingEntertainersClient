@@ -4,7 +4,10 @@
 
     .login-page-root-img {
         background: url("../assets/upcomingentertainershead.PNG") top center no-repeat;
-        height: 38.8%;
+        height: 35.9%;
+        @media screen and (max-width: 959px) {
+            zoom: 60%;
+        }
     }
 
     .login-page-root {
@@ -13,6 +16,15 @@
         justify-content: center;
         height: 61.2%;
         align-items: flex-start;
+
+        .login-form-submit {
+            width: 25%;
+            padding: 10px;
+            background-color: #f89b00;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px;
+        }
 
         .login-page-header {
             font-size: 26px;
@@ -33,7 +45,7 @@
             .login-form-user-label {
                 color: white;
                 padding: 12px;
-                font-size: 18px;
+                font-size: 14px;
                 padding-left: 17px;
             }
 
